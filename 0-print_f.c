@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - Custom implementation of printf function
+ * _printf -execution of printf function
  * @format: The format string
  * ...: Variable arguments
  *
@@ -13,7 +13,9 @@ int _printf(const char *format, ...)
     va_list my_args;
 
     if (format == NULL)
+    {
         return -1;
+    }
 
     va_start(my_args, format);
 
@@ -29,7 +31,9 @@ int _printf(const char *format, ...)
             format++;
 
             if (*format == '\0')
+	    {
                 break;
+	    }
 
             if (*format == 'c')
             {
