@@ -3,6 +3,10 @@
 
 #include <string.h>
 #include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+#include <unistd.h>
 
 typedef struct format
 {
