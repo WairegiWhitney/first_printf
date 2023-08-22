@@ -16,5 +16,6 @@ typedef struct format
 
 
 int _printf(const char *format, ...);
+int printf_int(va_list my_args);
 int _putchar(char c);
 #endif

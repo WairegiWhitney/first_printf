@@ -59,7 +59,7 @@ int _printf(const char *format, ...)
                 putchar('%');
                 print_chars++;
             }
-        }
+	}
 
         format++;
     }
